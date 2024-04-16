@@ -21,7 +21,7 @@ def main():
 
     # Input features
     size = st.slider('Size', min_value=0.0, max_value=10.0, step=0.1)
-    weight = st.slider('Weight', min_value=0.0, max_value=5.0, step=1.0)
+    weight = st.slider('Weight', min_value=0.0, max_value=5.0, step=0.1)
     sweetness = st.slider('Sweetness', min_value=0.0, max_value=10.0, step=0.1)
     crunchiness = st.slider('Crunchiness', min_value=0.0, max_value=10.0, step=0.1)
     juiciness = st.slider('Juiciness', min_value=0.0, max_value=10.0, step=0.1)
